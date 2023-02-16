@@ -17,6 +17,8 @@ import accordion_en from 'raw-loader!../../stories/components/accordion/accordio
 import accordion_de from 'raw-loader!../../stories/components/accordion/accordion_de.md';
 import brandHeader_en from 'raw-loader!../../stories/components/brand-header-navigation/brand-header.md';
 import brandHeader_de from 'raw-loader!../../stories/components/brand-header-navigation/brand-header_de.md';
+import betaBrandHeader_en from 'raw-loader!../../stories/components/beta-brand-header-navigation/beta-brand-header.md';
+import betaBrandHeader_de from 'raw-loader!../../stories/components/beta-brand-header-navigation/beta-brand-header_de.md';
 import breadcrumb_en from 'raw-loader!../../stories/components/breadcrumb/breadcrumb.md';
 import breadcrumb_de from 'raw-loader!../../stories/components/breadcrumb/breadcrumb_de.md';
 import button_en from 'raw-loader!../../stories/components/button/button.md';
@@ -27,6 +29,8 @@ import checkbox_en from 'raw-loader!../../stories/components/checkbox/checkbox.m
 import checkbox_de from 'raw-loader!../../stories/components/checkbox/checkbox_de.md';
 import checkboxGroup_en from 'raw-loader!../../stories/components/checkbox-group/checkbox-group.md';
 import checkboxGroup_de from 'raw-loader!../../stories/components/checkbox-group/checkbox-group_de.md';
+import chip_de from 'raw-loader!../../stories/components/chip/chip_de.md';
+import chip_en from 'raw-loader!../../stories/components/chip/chip.md';
 import datagrid_en from 'raw-loader!../../stories/components/data-grid/data-grid.md';
 import datagrid_de from 'raw-loader!../../stories/components/data-grid/data-grid_de.md';
 import date_picker_en from 'raw-loader!../../stories/components/date-picker/date-picker.md';
@@ -69,6 +73,8 @@ import dropdownSelect_en from 'raw-loader!../../stories/components/dropdown-sele
 import dropdownSelect_de from 'raw-loader!../../stories/components/dropdown-select/dropdown-select_de.md';
 import dropdown_en from 'raw-loader!../../stories/components/dropdown/dropdown.md';
 import dropdown_de from 'raw-loader!../../stories/components/dropdown/dropdown_de.md';
+import segmentedButton_en from 'raw-loader!../../stories/components/segmented-button/segmented-button.md';
+import segmentedButton_de from 'raw-loader!../../stories/components/segmented-button/segmented-button_de.md';
 import sidebarNav_en from 'raw-loader!../../stories/components/sidebar-navigation/sidebar-nav.md';
 import sidebarNav_de from 'raw-loader!../../stories/components/sidebar-navigation/sidebar-nav_de.md';
 import slider_en from 'raw-loader!../../stories/components/slider/slider.md';
@@ -119,6 +125,8 @@ const Usage = (props) => {
     accordion_de,
     'brand-header-navigation_en': brandHeader_en,
     'brand-header-navigation_de': brandHeader_de,
+    'telekom-brand-header-navigation_en': betaBrandHeader_en,
+    'telekom-brand-header-navigation_de': betaBrandHeader_de,
     breadcrumb_en,
     breadcrumb_de,
     button_en,
@@ -129,6 +137,8 @@ const Usage = (props) => {
     checkbox_de,
     'checkbox-group_en': checkboxGroup_en,
     'checkbox-group_de': checkboxGroup_de,
+    chip_en,
+    chip_de,
     divider_en,
     divider_de,
     callout_en,
@@ -175,6 +185,8 @@ const Usage = (props) => {
     'dropdown-select_de': dropdownSelect_de,
     dropdown_en,
     dropdown_de,
+    'segmented-button_en': segmentedButton_en,
+    'segmented-button_de': segmentedButton_de,
     'sidebar-navigation_en': sidebarNav_en,
     'sidebar-navigation_de': sidebarNav_de,
     slider_en,
